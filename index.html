@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NewtonAlbum</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<input type="radio" name="photos" id="check1" checked>
+<input type="radio" name="photos" id="check2" checked>
+<input type="radio" name="photos" id="check3" checked>
+<input type="radio" name="photos" id="check4" checked>
+
+
+
+<div class="container">
+    <h1>Vårt Foto Galleri</h1>
+    <div class="top-content">
+        <h3>Foto Galleri</h3>
+        <label for="check1">Alla bilder</label>
+        <label for="check2">Fotboll</label>
+        
+
+
+    </div>
+
+    <div class="photo-gallery">
+        <div class="pic Fotboll" id="fullImg">
+            <img id="myImg" src="allianz.jpg" onclick="FullView(this.src)">
+        </div>
+
+        <div class="pic Fotboll" id="fullImg">
+            <img id="myImg" src="Fener.jpg" onclick="FullView(this.src)">
+        </div>
+
+        
+        <div class="pic Fotboll" id="fullImg">
+            <img id="myImg" src="Tele2.jpg" onclick="FullView(this.src)" >
+        </div>
+        
+        <div class="pic Filmer" id="fullImg">
+            <img id="myImg" src="F6.jpeg" onclick="FullView(this.src)">
+        </div>
+        <div class="pic Filmer" id="fullImg">
+            <img id="myImg" src="F62.jpg" onclick="FullView(this.src)" >
+        </div>
+        <div id="FullImageView">
+        <img id="FullImage">
+
+      
+    </div>
+
+ 
+        
+    </div>
+
+
+</div>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
